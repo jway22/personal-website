@@ -1,5 +1,54 @@
-h1 {
-    color: #00FF00
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Lora-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: normal;
+    src: url('fonts/Lora-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/Quattrocento-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: bold;
+    src: url('fonts/Quattrocento-Bold.ttf') format('truetype');
+}
+
+html {
+    
+    background-repeat: no-repeat;
+    min-height: 100%;
+    font-family: 'Lora', sans-serif;
+}
+
+body {
+    /* min-height: 100%; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: 'Quattrocento', sans-serif;
+}
+
+p {
+    /* padding: 10px 5px 20px 1px; */
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 1px;
+    margin: 20px;
 }
 
 .center {
