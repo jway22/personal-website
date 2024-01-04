@@ -66,6 +66,8 @@ header {
 img {
     max-width: 250px;
     border-radius: 999px;
+    display: flex;
+    justify-content: center;
 }
 
 #header {
@@ -98,6 +100,7 @@ img {
 #footer {
     background-color: yellow;
     min-height: var(--footer-height);
+    padding-left: 10px;
 }
 
 @media screen and (min-width: 680px) {
@@ -144,6 +147,16 @@ img {
 
 .nav-link:hover {
     text-decoration: underline;
+}
+
+.personal-links {
+    display: flex;
+    justify-content: center;
+}
+
+.personal-link {
+    padding: 10px;
+
 }
 
 .center {
