@@ -75,30 +75,27 @@ img {
 }
 
 #content-container {
-    display: flex;
-    background-color: black;
-    
+    display: flex;    
 }
 
 #main-content {
     flex: 70;
-    background-color: green;
+
 }
 
 #left-sidebar {
     display: none;
     flex: 15;
-    background-color: pink;
+
 }
 
 #right-sidebar {
     display: none;
     flex: 15;
-    background-color: aquamarine;
+
 }
 
 #footer {
-    background-color: yellow;
     min-height: var(--footer-height);
     padding-left: 10px;
 }
