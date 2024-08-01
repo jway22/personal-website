@@ -1,53 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jon Way - Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center back-blue">
+        <!-- Navbar content -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio Examples</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="./interests.html">Interests</a>
+            </li>
+        </ul>
+    </nav>
 
-    <body>
-        <header>
-            <nav class="nav-links">
-                <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="about-me.html">About Me</a>
-                <a class="nav-link" href="interests.html">Interests</a>
-            </nav>
-        </header>
-        <div id="content-container">
-            <div id="left-sidebar">
-            </div>
-            <main id="main-content">
-                <h1>Interests</h1>
-                <p>When I'm not programming I'm playing and writing music, playing video games or Dungeons & Dragons with friends,
-                     putting together a puzzle, or watching tv.
-                </p>
-                <p>I was about 10 years old when I started to really love music. At the time I began
-                    learning how to play the guitar from my dad and violin in school. During my teen years
-                    I played guitar in a progressive metal band with my friends and violin in our school
-                    orchestra and chamber orchestra. Since high school I have played in several
-                    ensembles and over 15 musical theater pit orchestras, both community theater and professional.
-                </p>
-                <p>I began writing music at the end of high school and decided to add Music Composition
-                    as second major when I was at Keene State. I have composed for several sized ensembles,
-                    including string orchestra, string quartet, choir, and other various small ensembles.
-                </p>
-                <br>
-                <hr>
-                <br>
-                <p>One of my more recent compositions, <em>Elemental Suite</em>, is inspired by one of
-                    my favorite shows, <em>Avatar: The Last Airbender</em>. This movement is inspired by
-                    the element air.
-                </p>
-                <iframe width="100%" height="125" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/415209627&color=%23347c84&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=false"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jon_way" title="Jon Way" target="_blank" style="color: #cccccc; text-decoration: none;">Jon Way</a> · <a href="https://soundcloud.com/jon_way/elemental-suite-iii-air-sibelius-7-audio" title="Elemental Suite - III. Air (Sibelius 7 Audio)" target="_blank" style="color: #cccccc; text-decoration: none;">Elemental Suite - III. Air (Sibelius 7 Audio)</a></div>
-                <br>
-                <p>For my first major string quartet, <em>Romance for a Dancer</em>, I had the opportunity to
+    <!--Interests-->
+    <section id="interests">
+        <div class="p-5 text-left bg-body-tertiary">
+          <div class="container">
+            <h1 class="text-body-emphasis mb-5">Interests</h1>
+            <p class="col-lg-8 lead">
+                When I'm not programming I'm playing or writing music, playing video games or Dungeons & Dragons with friends,
+                putting together a puzzle, reading, or watching tv.
+            </p>
+            <h2 class="text-body-emphasis my-5">Music</h2>
+            <p class="col-lg-8 lead">
+                I was about 10 years old when I started to really love music. At the time I began
+                learning how to play the guitar from my dad and violin in school. During my teen years
+                I played guitar in a progressive metal band with my friends and violin in our school
+                orchestra and chamber orchestra. Since high school I have played in several
+                ensembles and over 15 musical theater pit orchestras, both community theater and professional.
+            </p>
+            <p class="col-lg-8 lead">
+                I began writing music at the end of high school and decided to add Music Composition
+                as second major when I was at Keene State. I have composed for several sized ensembles,
+                including string orchestra, string quartet, choir, and other various small ensembles.
+            </p>
+            <p class="col-lg-8 lead mb-5">
+                One of my more recent compositions, <em>Elemental Suite</em>, is inspired by one of
+                my favorite shows, <em>Avatar: The Last Airbender</em>. This movement is inspired by
+                the element air.
+            </p>
+            <iframe width="80%" height="125" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/415209627&color=%23347c84&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=false"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jon_way" title="Jon Way" target="_blank" style="color: #cccccc; text-decoration: none;">Jon Way</a> · <a href="https://soundcloud.com/jon_way/elemental-suite-iii-air-sibelius-7-audio" title="Elemental Suite - III. Air (Sibelius 7 Audio)" target="_blank" style="color: #cccccc; text-decoration: none;">Elemental Suite - III. Air (Sibelius 7 Audio)</a></div>
+            <p class="col-lg-8 lead my-5">
+                For my first major string quartet, <em>Romance for a Dancer</em>, I had the opportunity to
                 have it recorded by a local New Hampshire string quartet, the <em>Apple Hill String Quartet</em>
-                </p>
-                <iframe width="100%" height="125" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262179290&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jon_way" title="Jon Way" target="_blank" style="color: #cccccc; text-decoration: none;">Jon Way</a> · <a href="https://soundcloud.com/jon_way/romance-for-a-dancer" title="Romance for a Dancer" target="_blank" style="color: #cccccc; text-decoration: none;">Romance for a Dancer</a></div>            </main>
-            <div id="right-sidebar">
-            </div>
+            </p>
+            <iframe width="80%" height="125" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262179290&color=%23347c84&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/jon_way" title="Jon Way" target="_blank" style="color: #cccccc; text-decoration: none;">Jon Way</a> · <a href="https://soundcloud.com/jon_way/romance-for-a-dancer" title="Romance for a Dancer" target="_blank" style="color: #cccccc; text-decoration: none;">Romance for a Dancer</a></div>            </main>
         </div>
-        <footer id="footer">
-            <p>Site made by Jon Way <a href="https://www.youtube.com/watch?v=0C58ttB2-Qg&ab_channel=TheBeatles-Topic">**</a></p>
-        </footer>
-    </body>
+    </section>
+</body>
 </html>
